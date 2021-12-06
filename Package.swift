@@ -21,5 +21,6 @@ let package = Package(
             dependencies: ["PlainPocketFFT"],
             path: "Sources/Swift"
         )
-    ]
+    ],
+    cxxLanguageStandard: .cxx11
 )
